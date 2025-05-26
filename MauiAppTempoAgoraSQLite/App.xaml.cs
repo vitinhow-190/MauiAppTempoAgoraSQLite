@@ -7,6 +7,8 @@
             InitializeComponent();
         }
 
+        public static object Db { get; internal set; }
+
         protected override Window CreateWindow(IActivationState? activationState)
         {
             return new Window(new AppShell());
