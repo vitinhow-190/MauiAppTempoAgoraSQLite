@@ -16,7 +16,7 @@ namespace MauiAppTempoAgoraSQLite.Models
         public string? description { get; set; }
         public string? sunrise { get; set; }
         public string? sunset { get; set; }
-        public object Cidade { get; internal set; }
-        public DateTime DataConsulta { get; internal set; }
+        public object Cidade { get;  set; }
+        public DateTime data { get; set; }
     }
 }

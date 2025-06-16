@@ -38,8 +38,9 @@ namespace MauiAppTempoAgoraSQLite
 
                     if (t != null)
                     {
+
                         t.Cidade = txt_cidade.Text; // Atribui a cidade ao objeto Tempo
-                        t.DataConsulta = DateTime.Now; // Atribui a data atual ao objeto Tempo
+                        t.data = DateTime.Now; // Atribui a data atual ao objeto Tempo
 
                         string dados_previsao = "";
 
